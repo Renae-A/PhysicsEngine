@@ -48,6 +48,24 @@
     <ClCompile Include="Gizmos.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\Circle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\PhysicsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\PhysicsProjectApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\PhysicsScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\Rigidbody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h">
@@ -81,6 +99,21 @@
       <Filter>Imgui</Filter>
     </ClInclude>
     <ClInclude Include="Gizmos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\Circle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\PhysicsObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\PhysicsProjectApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\PhysicsScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\Rigidbody.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

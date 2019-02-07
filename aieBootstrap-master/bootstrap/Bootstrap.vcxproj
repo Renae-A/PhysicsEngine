@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -22,32 +22,32 @@
     <ProjectGuid>{AF59BB0B-E059-4773-83DC-728A949647DA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Bootstrap</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -168,6 +168,12 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\Circle.cpp" />
+    <ClCompile Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\main.cpp" />
+    <ClCompile Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\PhysicsObject.cpp" />
+    <ClCompile Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\PhysicsProjectApp.cpp" />
+    <ClCompile Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\PhysicsScene.cpp" />
+    <ClCompile Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\Rigidbody.cpp" />
     <ClCompile Include="..\dependencies\imgui\imgui.cpp" />
     <ClCompile Include="..\dependencies\imgui\imgui_draw.cpp" />
     <ClCompile Include="Application.cpp" />
@@ -180,6 +186,11 @@
     <ClCompile Include="Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\Circle.h" />
+    <ClInclude Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\PhysicsObject.h" />
+    <ClInclude Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\PhysicsProjectApp.h" />
+    <ClInclude Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\PhysicsScene.h" />
+    <ClInclude Include="..\..\..\..\..\Documents\aieBootstrap-master\aieBootstrap-master\PhysicsProject\Rigidbody.h" />
     <ClInclude Include="..\dependencies\imgui\imconfig.h" />
     <ClInclude Include="..\dependencies\imgui\imgui.h" />
     <ClInclude Include="..\dependencies\imgui\imgui_internal.h" />
